@@ -53,10 +53,10 @@ def calculate():
     i=0
     start=time.time()
     while i<100:
-        number1=random.randint(0,65535)
-        number2=random.randint(0,65535)
-        number3=random.randint(0,65535)
-        number4=random.randint(0,65535)
+        number1=random.randint(0,255)
+        number2=random.randint(0,255)
+        number3=random.randint(0,255)
+        number4=random.randint(0,255)
         entry.delete(0,'end')
         entry.insert(0,number1)
         entry2.delete(0, 'end')
